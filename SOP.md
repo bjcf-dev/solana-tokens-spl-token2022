@@ -164,19 +164,14 @@ Si el airdrop falla por congestion de Devnet:
 TOKEN_SPL_&_2022/
 ├── package.json              # Dependencias npm
 ├── config.json               # Mints, wallets, ATAs persistidos
+├── README.md                 # Symlink a SOP.md
 ├── scripts/
 │   ├── rpc.ts                # Helper compartido (retry, conexion RPC)
 │   ├── read-balance.ts       # Lector de balances SPL Token
 │   ├── decode-token2022.ts   # Decodificador de extensiones Token-2022
 │   ├── explorer-urls.ts      # Generador de URLs de Explorer
 │   └── token2022-guide.ts    # Guia comparativa SPL vs Token-2022
-├── SOP.md                    # Este documento
-├── AGENTS.md                 # Notas de configuracion del proyecto
-├── LEARNINGS_FINALES.md      # Descubrimientos tecnicos
-├── STACK_TECH.md             # Analisis del stack tecnologico
-├── EXECUTION_PLAN.md         # Plan de ejecucion resumido
-├── TODO.md                   # Lista de tareas
-└── Spec-SolanaTokens         # Especificacion original
+└── SOP.md                    # Esta guia (lo que estas leyendo)
 ```
 
 ---
