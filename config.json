@@ -1,0 +1,63 @@
+{
+  "exercise_3_spl": {
+    "status": "completed",
+    "steps": [
+      "✅ Crear mint SPL con 'spl-token create-token'",
+      "✅ Crear ATA del wallet principal",
+      "✅ Mintear 1000 tokens",
+      "✅ Crear segundo wallet y airdrops",
+      "✅ Crear ATA para segundo wallet",
+      "✅ Transferir 100 tokens",
+      "✅ Validar balances en Explorer"
+    ],
+    "mint": "DXtKUJdcKevBKRyiGQG2v3a9u3ZPAj9RVwMhXL5Df9G3",
+    "decimals": 9,
+    "mint_authority": "5P2mxoA2tcv8GHddG1WBxqcXqjvK7XxRjGDJ4o9qMRL7",
+    "ata_principal": "763qyT1kpERB7RxVkJKNY5xopddPH5nUA1VUH96CFyjF",
+    "balance": 1000,
+    "wallets": [
+      {
+        "name": "wallet_principal",
+        "address": "5P2mxoA2tcv8GHddG1WBxqcXqjvK7XxRjGDJ4o9qMRL7",
+        "ata": "763qyT1kpERB7RxVkJKNY5xopddPH5nUA1VUH96CFyjF",
+        "balance": 900
+      },
+      {
+        "name": "wallet2",
+        "address": "2aD2zZYqCZpssoXys72TvEH293gw8As9jpBhuSQAXdFQ",
+        "ata": "HMZkNeNjWhYgrzfZhDnRMi2R4D6H6JWtF9Tm3pCHVjTr",
+        "balance": 100
+      }
+    ],
+    "_keypair_hint": "Wallet2 keypair no incluido por seguridad. Si replicás, genera wallet2.json en tu máquina con: solana-keygen new --outfile wallet2.json"
+  },
+  "exercise_4_token2022": {
+    "status": "completed",
+    "extensions": [
+      "Metadata (Name, Symbol, URI)",
+      "Transfer Fee (1% = 100 bps)"
+    ],
+    "mint": "6zjPLqkcBvGp4QZ8Axq8EqJxfeTQ8SUJSQF6QxNGGi5R",
+    "program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "ata_principal": "FVzb5V68KBanNs7E99E6iHNo23TF1Hvr2w1q3vUePgLq",
+    "ata_wallet2": "3qvaGwwfV2KrtgCjmdvp9JZzTWgy9zF5RHPVU94PcTgz",
+    "balance": 500,
+    "metadata": {
+      "name": "MyToken2022",
+      "symbol": "MYT22",
+      "uri": "https://example.com/metadata.json"
+    },
+    "transfer_fee": {
+      "basis_points": 100,
+      "maximum_fee": 1000000000000
+    },
+    "transfer_test": {
+      "sent": 100,
+      "received": 99,
+      "fee_withheld": 1,
+      "verified": true
+    },
+    "tlv_decoded": "via spl-token display"
+  },
+  "notes": "Archivo de persistencia. Ambos ejercicios completados 100%. Las rutas de keypairs se eliminaron por seguridad — consultá SOP.md para generar los tuyos."
+}

@@ -1,0 +1,41 @@
+# === Dependencias ===
+node_modules/
+
+# === Entorno ===
+.env
+.env.*
+!.env.example
+
+# === Keypairs / Secretos ===
+wallet*.json
+*_wallet*.json
+*_keypair*.json
+*temp*.mjs
+*temp*.ts
+
+# === Sistema ===
+.DS_Store
+*.log
+
+# === SDD / Agentes (cero evidencia) ===
+openspec/
+.agents/
+.atl/
+skills-lock.json
+
+# === Documentación interna (solo SOP.md es público) ===
+AGENTS.md
+EXECUTION_PLAN.md
+LEARNINGS_FINALES.md
+STACK_TECH.md
+TODO.md
+Spec-SolanaTokens
+
+# === Directorios vacíos ===
+exercises/
+
+# === Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
