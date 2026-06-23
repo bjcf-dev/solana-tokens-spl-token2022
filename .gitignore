@@ -17,20 +17,6 @@ wallet*.json
 .DS_Store
 *.log
 
-# === SDD / Agentes (cero evidencia) ===
-openspec/
-.agents/
-.atl/
-skills-lock.json
-
-# === Documentación interna (solo SOP.md es público) ===
-AGENTS.md
-EXECUTION_PLAN.md
-LEARNINGS_FINALES.md
-STACK_TECH.md
-TODO.md
-Spec-SolanaTokens
-
 # === Directorios vacíos ===
 exercises/
 
